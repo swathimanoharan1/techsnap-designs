@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header css */
+.header{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.container{
+    width:90%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.header_container{
+    justify-content: space-between;
+}
+
+.logo{
+    height: 90px;
+    width: 15%;
+    /* background-color: yellow; */
+}
+.TSlogo{
+    width: 78%;
+    cursor: pointer;
+}
+
+.nav{
+    height: 90px;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+}
+.nav_item{
+    width: 20%;
+    height: 90px;
+    /* background-color: grey; */
+    font-family: 'Segoe UI';
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.nav_item:hover{
+    background-color: white;
+    color: #fd6eff;
+}
+.nav_btn{
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fd6eff;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border: 3px solid #fd6eff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.nav_btn:hover{
+    color:#fd6eff;
+    background-color: white;   
+}
+.login_btn{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.signup_btn{
+    background-color: #fd6eff;
+    color:white;
+    border: 0px;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-color:#ffd500;
+    background-image: url(Programmer-Engineering-Development-Illustration-on-transparent-background-PNG\ 2.svg);
+    background-size: 500px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.overlay{
+    height: 95vh;
+    width: 100%;
+    /* background-color: rgba(0,0,0,0.5); */
+    display: flex;
+    align-items: center;
+}
+.banner_text{
+    height: 350px;
+    padding-left: 30px;
+    width: 50%;
+    /* background-color: rgba(16,128,234,0.7); */
+    font-family: 'Segoe UI';
+    display:flex;
+    align-items: center;
+    color: black;
+}
+.banner_dsec{
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.padd{
+    padding: 100px;
+    padding-top: 30%;
+    /* background-color: red;   */
+}
+.banner_btn{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    /* margin-right: 50%; */
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+.banner_btn:hover{
+    background-color: white;
+    color: blue;
+
+}
+
+/* highlight css */
+.highlight{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+    background-color: rgb(5 25 45);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.high_ele{
+    margin: 90px;
+    width: 30%;
+    height: 330px;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Segeo UI';
+    text-align: center;
+    color: white;
+}
+
+.high_title{
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+.work{
+    margin: 90px;
+    width: 30%;
+    height: 330px;
+    margin-left: -100px;
+    /* background-color: rgba(0,0,0,0.4); */
+    display: flex;
+    font-family: 'Segeo UI';
+    text-align: left;
+}
+.work_title{
+    list-style-type: none;
+    color: white;
+    margin: 41px;
+    font-size: 20px;
+    font-family: "Segeo UI";
+}
+.title1{
+    height: 20px;
+    /* background-color: red; */
+    text-align: start;
+    padding: 10px;
+    color: rgb(255, 176, 189);
+}
+.title2{
+    height: 20px;
+    /* background-color: red; */
+    text-align: start;
+    padding: 10px;
+    color: rgb(148, 0, 148);
+}
+.title3{
+    height: 20px;
+    /* background-color: red; */
+    text-align: start;
+    padding: 10px;
+    color: yellow;
+}
+.title4{
+    height: 20px;
+    /* background-color: red; */
+    text-align: start;
+    padding: 10px;
+    color: greenyellow;
+}
+.circle{
+    padding-left: 130px;
+    height: 330px;
+    /* background-color: rgba(0,0,0,0.4); */
+    margin-top: 90px;
+    display: block;
+    justify-content: space-evenly;
+}
+.circle1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 176, 189);
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 32px;
+    
+}
+.circle2{
+    margin: 32px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(148, 0, 148);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.circle3{
+    margin: 32px;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.circle4{
+    margin: 32px;
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.line1{
+    border-left: 4px solid white;
+    height: 34px;
+    position: absolute;
+    left: 54.5%;
+    top: 117.5%;
+    margin: 90px;
+    width: 30%;
+}
+.line2{
+    border-left: 4px solid white;
+    height: 33px;
+    position: absolute;
+    left: 54.4%;
+    top: 128.3%;
+    margin: 90px;
+    width: 30%;
+}
+.line3{
+    border-left: 4px solid white;
+    height: 34px;
+    position: absolute;
+    left: 54.5%;
+    top: 139.3%;
+    margin: 90px;
+    width: 30%;
+}
